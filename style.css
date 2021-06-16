@@ -1,0 +1,212 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+*/
+
+body, h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.container-fluid{
+  padding: 3% 15% 3% 15%;
+}
+
+.iphone{
+  height: 600px;
+margin-left: 150px;
+transform: rotate(15deg);
+/* position: absolute; */
+
+}
+
+/* Navbar */
+
+.navbar{
+  padding-bottom: 3.5rem;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link{
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Buttons */
+
+.download-btn{
+  margin: 10% 3% 5% 0;
+
+}
+
+/* Icons */
+
+.icon2{
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.icon2:hover{
+  color: #ff4c68;
+}
+
+/* Features */
+
+
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  /* position: relative;
+  z-index:1; */
+}
+
+.features-h{
+  display:inline-block;
+}
+
+.f{
+  color: #8f8f8f;
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+/* Testemonials Section */
+
+#testimonials{
+
+
+text-align: center;
+background-color: #ef8172;
+color: white;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.carousel-item{
+padding: 7% 15%;
+
+}
+
+.testimonial-image{
+
+  border-radius: 100%;
+  width:20%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  padding:7%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+
+.press-logo{
+
+  width:15%;
+  margin: 20px 20px 20px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-head{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.pricing-col{
+padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px){
+
+
+ #title{
+   text-align: center;
+ }
+
+  .iphone{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* call to action section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6%;
+
+}
+
+.cta{
+  color: white;
+  font-size: 3rem;
+  margin:auto 20%;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+footer{
+  text-align: center;
+  background-color: white;
+  padding: 10% 10% 3% 10%;
+}
+
+p{
+  color: #8f8f8f;
+  padding:2%;
+}
+
+.f-icon{
+  margin: 20px 10px;
+}
